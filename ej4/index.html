@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Ejercicio 4</title>
-  </head>
-  <body>
-    <input name="name" placeholder="Name" required />
-    <input name="email" placeholder="Email" required />
-    <select name="role">
-      <option>Admin</option>
-      <option>Editor</option>
-      <option>Viewer</option>
-    </select>
-    <button id="add">Add</button>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Usuarios</title>
+</head>
+<body>
+  <h1>Gestor de usuarios/h1>
 
-    <ul id="users"></ul>
-  </body>
+  <!-- Formulario de creación -->
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="role" placeholder="Role" required>
+    <button type="submit">Add</button>
+  </form>
+
+  <h2>Users</h2>
+  <ul id="users"></ul>
+
+  <script src="index.js"></script>
+</body>
 </html>

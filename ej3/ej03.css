@@ -3,8 +3,8 @@
 */
 body {
   align-items: center;
-  background: #020202;
-  color: #f0f0f0;
+  background: black;
+  color: white;
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +26,7 @@ body {
 
 .segment {
   /* background: #030303; /* off */
-  background: #e0e000;
+  background: yellow;
   /* on */
   position: absolute;
 }

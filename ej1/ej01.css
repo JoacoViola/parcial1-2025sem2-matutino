@@ -1,6 +1,76 @@
-@font-face {
-  font-family: 'Rufina';
-  src: url('./assets/fonts/Rufina-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+/* HEADER */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  padding: 40px 80px;
+}
+.hero h1 {
+  font-family: 'Rufina', serif;
+  font-size: 3rem;
+  margin: 0;
+  color: red;
+}
+.hero p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
+.hero .logo {
+  width: 180px;
+}
+
+/* SECCIONES */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 120px;
+}
+section:nth-child(even) {
+  background: white;
+}
+section img {
+  width: 280px;
+  border-radius: 10px;
+}
+.section-text {
+  flex: 1;
+}
+.section-text h2 {
+  font-family: 'Rufina', serif;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.section-text .subtitle {
+  font-style: italic;
+  margin: 0 0 20px;
+  font-size: 1rem;
+  color: grey;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 1.1rem;
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.platos-principales {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  gap: 20px; 
+}
+
+.platos-principales .section-text {
+  text-align: right; 
 }
